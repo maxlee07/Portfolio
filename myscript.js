@@ -1,5 +1,5 @@
 function myFunction() {
-    var t="<div class='eff'>"+"Web Devlopment"+"<br>"+"UI degin"+"<br>"
+    var t="<div class='eff'>"+"Web Devlopment"+"<br>"+"UI design"+"<br>"
     +"Data Analysis"+"<br>"
     +"Python programing"+"<br>"
     +"C++"+"<br>"
