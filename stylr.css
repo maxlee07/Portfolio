@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color:black;
+}
+
+.navbar-brand{
+  margin-left: 30px;
+  font-family: "copperplat",fantasy;
+}
+.navbar-collapse{
+  margin-left: 30px;
+}
+.home-left{
+  color: red;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "copperplat",fantasy;
+}
+
+@media(max-width: 576px) {
+  .home-container{
+    flex-direction: column-reverse;
+  }
+  .home-left{
+    color: red;
+    margin-top: 10vh;
+    font-family: "copperplat",fantasy;
+  }
+  .about-container{
+    margin-top: 24vh;
+  }
+}
+.about-container{
+  margin-top: 24vh;
+}
+.about-me{
+  text-align: justify;
+  color: whitesmoke;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
+.click_dis{
+  color: whitesmoke;
+  
+}
+.ah1{
+  color: red;
+  font-family: "copperplat",fantasy;
+}
+#demo1{
+  margin-left: 1vh;
+  font-weight: bold;
+}
+.eff{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.project{
+  margin-left: 1vh;
+}
+.footer{
+  flex-direction: column;
+}
+
+
+
